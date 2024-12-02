@@ -9,7 +9,7 @@ export default async function Header() {
   return (
     <header className="bg-gray-200 p-4 px-8">
       <div className="flex justify-between items-center">
-        <Link href="/" className="logo">Team Share</Link>
+        <Link href="/" className="logo">Task Manager</Link>
         <div>
           {session && (
             <>
